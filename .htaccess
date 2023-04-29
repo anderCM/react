@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /var/www/aula.upfic.pe/upfic/
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /var/www/aula.upfic.pe/upfic/index.html [L]
