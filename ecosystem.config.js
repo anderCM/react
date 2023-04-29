@@ -1,7 +1,7 @@
 /*global module*/
 module.exports = {
     apps: [{
-      name: 'upfic',
+      name: 'react',
       script: 'yarn',
       args: 'start',
       cwd: '/var/www/aula.upfic.pe/react',
