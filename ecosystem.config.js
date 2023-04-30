@@ -11,7 +11,7 @@ module.exports = {
     }],
     deploy: {
       production: {
-        user: 'ubuntu',
+        user: 'root',
         host: 'localhost',
         ref: 'origin/main',
         repo: 'git@github.com:anderCM/react.git',
