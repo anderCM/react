@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "commonjs",
-  "homepage": "https://aula.upfic.pe/react",
+  "homepage": "/react/",
   "scripts": {
     "dev": "vite",
     "start": "vite",
